@@ -787,9 +787,18 @@ table tbody tr:not(:last-child) {
     text-decoration: none
 }
  */
+
+ .viewIt > h1 + ul > li > a {
+	font-size: 0.8em;
+}
+
 /* .viewIt>ul>li a:after {
     margin-left: .5em
 } */
+
+.viewIt > h1 + ul > li a[target="_blank"]::after {
+	margin-left: 2.5em;
+}
 
 /* .viewIt>ul>li a:hover:after {
     opacity: 1;
