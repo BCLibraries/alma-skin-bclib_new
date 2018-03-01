@@ -307,14 +307,9 @@ table tbody tr:not(:last-child) {
     position: relative
 } */
 
-/* .iframeHeaderContent>em {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: .75em;
-    letter-spacing: 0.05em;
-    top: 5px;
-    position: absolute
-} */
+.iframeHeaderContent>em {
+    display: none;
+}
 
 /* .iframeHeaderContent .requestOption:first-of-type {
     padding-left: 0
