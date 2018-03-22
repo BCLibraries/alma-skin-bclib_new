@@ -770,13 +770,13 @@ table tbody tr:not(:last-child) {
     display: flex
 } */
 
-/* .viewIt>ul>li+div:not(:last-child) {
-    border-bottom: 1px solid #EDEDED;
+.viewIt>ul>li+div:not(:last-child) {
+    border-bottom: none;
     margin-top: 1em;
     margin-bottom: 1em;
     padding-left: 2em;
     padding-right: 2em
-} */
+}
 
 /* .viewIt>ul>li+div:not(:last-child) br:first-child {
     display: none
@@ -866,7 +866,7 @@ table tbody tr:not(:last-child) {
     margin-right: 0;
 }
 
-.viewIt .publicNoteTitle {
+.viewIt .publicNoteTitle, .viewIt .authNoteTitle {
     display: none;
 }
 
