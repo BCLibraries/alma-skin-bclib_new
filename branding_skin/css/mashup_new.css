@@ -796,9 +796,12 @@ table tbody tr:not(:last-child) {
     margin-left: .5em
 } */
 
-.viewIt > h1 + ul > li a[target="_blank"]::after {
-	margin-left: 2.5em;
-}
+ .viewIt > h1 + ul > li > a[target="_blank"]::after {
+     width: 12px;
+     margin-left: 0.5em;
+     height: 12px;
+     top: 2px;
+ }
 
 /* .viewIt>ul>li a:hover:after {
     opacity: 1;
