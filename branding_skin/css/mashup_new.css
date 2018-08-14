@@ -788,9 +788,12 @@ table tbody tr:not(:last-child) {
 }
  */
 
- .viewIt > h1 + ul > li > a {
-	font-size: 0.8em;
+ .viewIt > ul > li > a {
+    font-size: 0.8em;
 }
+ .viewIt > ul > li > span.internalTitle + a[target="_blank"] {
+     font-size: 1.2em;
+ }
 
 /* .viewIt>ul>li a:after {
     margin-left: .5em
