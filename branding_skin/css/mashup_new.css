@@ -806,6 +806,16 @@ table tbody tr:not(:last-child) {
      top: 2px;
  }
 
+ .viewIt > ul + h1 {
+     margin-bottom: 0;
+     font-size: 1em;
+     font-weight: 600;
+ }
+
+ .viewIt > ul + h1 + ul > li {
+     display: inline;
+ }
+
 /* .viewIt>ul>li a:hover:after {
     opacity: 1;
     -webkit-transform: translateX(0.2em);
