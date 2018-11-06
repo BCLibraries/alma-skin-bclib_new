@@ -807,9 +807,14 @@ table tbody tr:not(:last-child) {
  }
 
  .viewIt > ul + h1 {
-     margin-bottom: 0;
+     margin: 2em 0 0;
      font-size: 1em;
      font-weight: 600;
+     text-align: center;
+ }
+
+ .viewIt > ul + h1 + ul {
+     text-align: center;
  }
 
  .viewIt > ul + h1 + ul > li {
@@ -886,6 +891,9 @@ table tbody tr:not(:last-child) {
     display: none;
 }
 
+.viewIt .publicNote, .viewIt .authNote {
+    font-size: 13px;
+}
 /* .viewIt>br {
     display: none
 }
